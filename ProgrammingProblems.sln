@@ -1,8 +1,71 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactorialCalculator", "FactorialCalculator", "{45C910C7-1A04-4DA6-ACF9-2CDC2E51BB37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialCalculatorProgram", "FactorialCalculator\FactorialCalculatorProgram\FactorialCalculatorProgram.csproj", "{6B7C06CE-6063-4E95-96BA-1C413A787E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialCalculatorSource", "FactorialCalculator\FactorialCalculatorSource\FactorialCalculatorSource.csproj", "{3148ED58-43D7-4130-ADE0-82DAD2D477D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialCalculatorTests", "FactorialCalculator\FactorialCalculatorTests\FactorialCalculatorTests.csproj", "{9FAE3C28-563D-4480-850E-88FEB8760F38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EncodeDecodeRecords", "EncodeDecodeRecords", "{6B811F7E-FF21-4DF7-9E8D-76ECEABBCC13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodeDecodeRecordSource", "EncodeDecodeRecords\EncodeDecodeRecordSource\EncodeDecodeRecordSource.csproj", "{89CD4FA5-C546-4EE8-83D9-80678255F9E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodeDecodeRecordsTests", "EncodeDecodeRecords\EncodeDecodeRecordsTests\EncodeDecodeRecordsTests.csproj", "{1817C597-F035-478A-BDE5-8A90C79ABF1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Codility", "Codility", "{5ABC4CB6-2482-4F5D-AF44-53F280F89BD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodilitySource", "CodilitySource", "{5644ACC8-26B7-43DB-AD08-366CED690FB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodilityTests", "CodilityTests", "{D3B7B190-6CD8-4C8B-B139-E71821A900B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.TimeComplexity", "01.TimeComplexity", "{9B36DC9B-8FF1-45F2-A7AA-291A57B5C011}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.TimeComplexity", "01.TimeComplexity", "{B2BB99B8-B868-429F-847A-A2C72AFBF957}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B7C06CE-6063-4E95-96BA-1C413A787E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7C06CE-6063-4E95-96BA-1C413A787E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7C06CE-6063-4E95-96BA-1C413A787E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7C06CE-6063-4E95-96BA-1C413A787E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3148ED58-43D7-4130-ADE0-82DAD2D477D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3148ED58-43D7-4130-ADE0-82DAD2D477D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3148ED58-43D7-4130-ADE0-82DAD2D477D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3148ED58-43D7-4130-ADE0-82DAD2D477D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FAE3C28-563D-4480-850E-88FEB8760F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FAE3C28-563D-4480-850E-88FEB8760F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FAE3C28-563D-4480-850E-88FEB8760F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FAE3C28-563D-4480-850E-88FEB8760F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89CD4FA5-C546-4EE8-83D9-80678255F9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CD4FA5-C546-4EE8-83D9-80678255F9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CD4FA5-C546-4EE8-83D9-80678255F9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CD4FA5-C546-4EE8-83D9-80678255F9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1817C597-F035-478A-BDE5-8A90C79ABF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1817C597-F035-478A-BDE5-8A90C79ABF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1817C597-F035-478A-BDE5-8A90C79ABF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1817C597-F035-478A-BDE5-8A90C79ABF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B7C06CE-6063-4E95-96BA-1C413A787E96} = {45C910C7-1A04-4DA6-ACF9-2CDC2E51BB37}
+		{3148ED58-43D7-4130-ADE0-82DAD2D477D0} = {45C910C7-1A04-4DA6-ACF9-2CDC2E51BB37}
+		{9FAE3C28-563D-4480-850E-88FEB8760F38} = {45C910C7-1A04-4DA6-ACF9-2CDC2E51BB37}
+		{89CD4FA5-C546-4EE8-83D9-80678255F9E1} = {6B811F7E-FF21-4DF7-9E8D-76ECEABBCC13}
+		{1817C597-F035-478A-BDE5-8A90C79ABF1B} = {6B811F7E-FF21-4DF7-9E8D-76ECEABBCC13}
+		{5644ACC8-26B7-43DB-AD08-366CED690FB7} = {5ABC4CB6-2482-4F5D-AF44-53F280F89BD1}
+		{D3B7B190-6CD8-4C8B-B139-E71821A900B7} = {5ABC4CB6-2482-4F5D-AF44-53F280F89BD1}
+		{9B36DC9B-8FF1-45F2-A7AA-291A57B5C011} = {5644ACC8-26B7-43DB-AD08-366CED690FB7}
+		{B2BB99B8-B868-429F-847A-A2C72AFBF957} = {D3B7B190-6CD8-4C8B-B139-E71821A900B7}
 	EndGlobalSection
 EndGlobal
