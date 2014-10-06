@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodilitySource
+namespace CodilitySource._01.TimeComplexity
 {
     public class FrogJump
     {

@@ -1,7 +1,7 @@
-﻿using CodilitySource;
+﻿using CodilitySource._01.TimeComplexity;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CodilityTests
+namespace CodilityTests._01.TimeComplexity
 {
     [TestClass]
     public class ForgJumpTests

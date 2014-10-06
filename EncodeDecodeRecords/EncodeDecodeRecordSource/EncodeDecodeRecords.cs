@@ -34,14 +34,14 @@ namespace EncodeDecodeRecordSource
 
         public string[,] EncodeRecords(string records)
         {
-            string[][] MultiArray = records.Split('=').Select(t => t.Split('#')).ToArray();
-            int dim1 = MultiArray.Length;
-            int dim2 = MultiArray.Select(a => a.Length).Max();
+            var multiArray = records.Split('=').Select(t => t.Split('#')).ToArray();
+            var dim1 = multiArray.Length;
+            var dim2 = multiArray.Select(a => a.Length).Max();
 
-            string[,] arr = new string[dim1, dim2];
-            for (int i = 0; i < dim1; i++)
-                for (int j = 0; j < MultiArray[i].Length; j++)
-                    arr[i, j] = MultiArray[i][j];
+            var arr = new string[dim1, dim2];
+            for (var i = 0; i < dim1; i++)
+                for (var j = 0; j < multiArray[i].Length; j++)
+                    arr[i, j] = multiArray[i][j];
             return arr;
 
         }

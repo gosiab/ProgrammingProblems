@@ -45,7 +45,7 @@ namespace EncodeDecodeRecordsTests
             var expected = decode.DecodeRecords(data);
 
             // Act
-            var result = "id=123#name=bob#salary=30000#date=25.08.2014";
+            const string result = "id=123#name=bob#salary=30000#date=25.08.2014";
 
             // Assert
             Assert.AreEqual(expected, result);
@@ -55,7 +55,7 @@ namespace EncodeDecodeRecordsTests
         public void EncodeSource1_ShouldReturnRightArray()
         {
             // Arange
-            string data = "id=123#name=bob#salary=30000#date=25.08.2014";
+            const string data = "id=123#name=bob#salary=30000#date=25.08.2014";
             var encode = new EncodeDecodeRecords();
             var expected = encode.EncodeRecords(data);
 

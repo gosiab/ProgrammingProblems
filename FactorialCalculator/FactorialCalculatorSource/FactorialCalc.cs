@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Numerics;
+﻿using System.Numerics;
 
 namespace FactorialCalculatorSource
 {
@@ -13,23 +9,16 @@ namespace FactorialCalculatorSource
         {
             if (number >= 0)
             {
+                BigInteger numberFactorial = 1;
 
-
-                BigInteger numberFactorial;
-
-                numberFactorial = 1;
-
-                for (int i = 1; i <= number; i++)
+                for (var i = 1; i <= number; i++)
                 {
                     numberFactorial = numberFactorial * i;
                 }
 
                 return numberFactorial;
             }
-            else
-            {
-                return 0;
-            }
+            return 0;
         }
     }
 }

@@ -1,9 +1,5 @@
 ﻿using FactorialCalculatorSource;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Numerics;
 
 namespace FactorialCalculatorProgram
 {
@@ -15,11 +11,10 @@ namespace FactorialCalculatorProgram
             while (doContinue)
             {
                 Console.Write("Find n! where n =  ");
-                int number;
 
                 try
                 {
-                    number = int.Parse(Console.ReadLine());
+                    var number = int.Parse(Console.ReadLine());
                     if (number >= 0)
                     {
                         var fc = new FactorialCalc();
