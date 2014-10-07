@@ -21,7 +21,7 @@ namespace CodilityTests._01.TimeComplexity
             var result = frogJump.Jump(x, y, d);
 
             // Assert
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
@@ -39,7 +39,7 @@ namespace CodilityTests._01.TimeComplexity
             var result = frogJump.Jump(x, y, d);
 
             // Assert
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
@@ -57,7 +57,7 @@ namespace CodilityTests._01.TimeComplexity
             var result = frogJump.Jump(x, y, d);
 
             // Assert
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
@@ -75,7 +75,7 @@ namespace CodilityTests._01.TimeComplexity
             var result = frogJump.Jump(x, y, d);
 
             // Assert
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
@@ -93,7 +93,7 @@ namespace CodilityTests._01.TimeComplexity
             var result = frogJump.Jump(x, y, d);
 
             // Assert
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
@@ -111,7 +111,7 @@ namespace CodilityTests._01.TimeComplexity
             var result = frogJump.Jump(x, y, d);
 
             // Assert
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
@@ -129,7 +129,7 @@ namespace CodilityTests._01.TimeComplexity
             var result = frogJump.Jump(x, y, d);
 
             // Assert
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
         }
     }
 }

@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="01.TimeComplexity\ForgJumpTests.cs" />
+    <Compile Include="01.TimeComplexity\TapeEquilibriumTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
