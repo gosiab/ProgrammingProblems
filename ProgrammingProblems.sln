@@ -9,26 +9,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialCalculatorProgram"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialCalculatorSource", "FactorialCalculator\FactorialCalculatorSource\FactorialCalculatorSource.csproj", "{3148ED58-43D7-4130-ADE0-82DAD2D477D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialCalculatorTests", "FactorialCalculator\FactorialCalculatorTests\FactorialCalculatorTests.csproj", "{9FAE3C28-563D-4480-850E-88FEB8760F38}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EncodeDecodeRecords", "EncodeDecodeRecords", "{6B811F7E-FF21-4DF7-9E8D-76ECEABBCC13}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodeDecodeRecordSource", "EncodeDecodeRecords\EncodeDecodeRecordSource\EncodeDecodeRecordSource.csproj", "{89CD4FA5-C546-4EE8-83D9-80678255F9E1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodeDecodeRecordsTests", "EncodeDecodeRecords\EncodeDecodeRecordsTests\EncodeDecodeRecordsTests.csproj", "{1817C597-F035-478A-BDE5-8A90C79ABF1B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Codility", "Codility", "{5ABC4CB6-2482-4F5D-AF44-53F280F89BD1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodilitySource", "Codility\CodilitySource\CodilitySource.csproj", "{6F5FB1DA-F588-4F18-AD71-7E449EFFE9BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodilityTests", "Codility\CodilityTests\CodilityTests.csproj", "{47D7B0BD-B943-4E97-BFFC-3C52740CE55D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialCalculatorTests", "FactorialCalculator\FactorialCalculatorTests\FactorialCalculatorTests.csproj", "{DA71A69A-53F0-42A8-8108-C7711AA81107}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35872F30-8E1D-4585-8CA1-51D9E8A6957C}"
-	ProjectSection(SolutionItems) = preProject
-		Local.testsettings = Local.testsettings
-		ProgrammingProblems.vsmdi = ProgrammingProblems.vsmdi
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodeDecodeRecordsTests", "EncodeDecodeRecords\EncodeDecodeRecordsTests\EncodeDecodeRecordsTests.csproj", "{67EAE6B8-CB5E-4756-B3F3-FB1484A9B0BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodilityTests", "Codility\CodilityTests\CodilityTests.csproj", "{CE10584F-98B1-4D32-B5E1-F53FEDB08572}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,26 +37,26 @@ Global
 		{3148ED58-43D7-4130-ADE0-82DAD2D477D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3148ED58-43D7-4130-ADE0-82DAD2D477D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3148ED58-43D7-4130-ADE0-82DAD2D477D0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9FAE3C28-563D-4480-850E-88FEB8760F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FAE3C28-563D-4480-850E-88FEB8760F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FAE3C28-563D-4480-850E-88FEB8760F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FAE3C28-563D-4480-850E-88FEB8760F38}.Release|Any CPU.Build.0 = Release|Any CPU
 		{89CD4FA5-C546-4EE8-83D9-80678255F9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{89CD4FA5-C546-4EE8-83D9-80678255F9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89CD4FA5-C546-4EE8-83D9-80678255F9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89CD4FA5-C546-4EE8-83D9-80678255F9E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1817C597-F035-478A-BDE5-8A90C79ABF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1817C597-F035-478A-BDE5-8A90C79ABF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1817C597-F035-478A-BDE5-8A90C79ABF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1817C597-F035-478A-BDE5-8A90C79ABF1B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6F5FB1DA-F588-4F18-AD71-7E449EFFE9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6F5FB1DA-F588-4F18-AD71-7E449EFFE9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F5FB1DA-F588-4F18-AD71-7E449EFFE9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F5FB1DA-F588-4F18-AD71-7E449EFFE9BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47D7B0BD-B943-4E97-BFFC-3C52740CE55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47D7B0BD-B943-4E97-BFFC-3C52740CE55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47D7B0BD-B943-4E97-BFFC-3C52740CE55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47D7B0BD-B943-4E97-BFFC-3C52740CE55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA71A69A-53F0-42A8-8108-C7711AA81107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA71A69A-53F0-42A8-8108-C7711AA81107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA71A69A-53F0-42A8-8108-C7711AA81107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA71A69A-53F0-42A8-8108-C7711AA81107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67EAE6B8-CB5E-4756-B3F3-FB1484A9B0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EAE6B8-CB5E-4756-B3F3-FB1484A9B0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EAE6B8-CB5E-4756-B3F3-FB1484A9B0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EAE6B8-CB5E-4756-B3F3-FB1484A9B0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE10584F-98B1-4D32-B5E1-F53FEDB08572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE10584F-98B1-4D32-B5E1-F53FEDB08572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE10584F-98B1-4D32-B5E1-F53FEDB08572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE10584F-98B1-4D32-B5E1-F53FEDB08572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,12 +64,11 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6B7C06CE-6063-4E95-96BA-1C413A787E96} = {45C910C7-1A04-4DA6-ACF9-2CDC2E51BB37}
 		{3148ED58-43D7-4130-ADE0-82DAD2D477D0} = {45C910C7-1A04-4DA6-ACF9-2CDC2E51BB37}
-		{9FAE3C28-563D-4480-850E-88FEB8760F38} = {45C910C7-1A04-4DA6-ACF9-2CDC2E51BB37}
 		{89CD4FA5-C546-4EE8-83D9-80678255F9E1} = {6B811F7E-FF21-4DF7-9E8D-76ECEABBCC13}
-		{1817C597-F035-478A-BDE5-8A90C79ABF1B} = {6B811F7E-FF21-4DF7-9E8D-76ECEABBCC13}
 		{6F5FB1DA-F588-4F18-AD71-7E449EFFE9BA} = {5ABC4CB6-2482-4F5D-AF44-53F280F89BD1}
-		{47D7B0BD-B943-4E97-BFFC-3C52740CE55D} = {5ABC4CB6-2482-4F5D-AF44-53F280F89BD1}
-		{35872F30-8E1D-4585-8CA1-51D9E8A6957C} = {5ABC4CB6-2482-4F5D-AF44-53F280F89BD1}
+		{DA71A69A-53F0-42A8-8108-C7711AA81107} = {45C910C7-1A04-4DA6-ACF9-2CDC2E51BB37}
+		{67EAE6B8-CB5E-4756-B3F3-FB1484A9B0BD} = {6B811F7E-FF21-4DF7-9E8D-76ECEABBCC13}
+		{CE10584F-98B1-4D32-B5E1-F53FEDB08572} = {5ABC4CB6-2482-4F5D-AF44-53F280F89BD1}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = ProgrammingProblems.vsmdi
