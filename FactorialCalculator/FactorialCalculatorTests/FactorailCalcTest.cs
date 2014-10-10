@@ -1,18 +1,18 @@
 ﻿using System.Numerics;
 using FactorialCalculatorSource;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace FactorialCalculatorTests
 {
-    [TestClass]
+    [TestFixture]
     public class FactorailCalcTest
     {
-        [TestMethod]
+        [Test]
         public void FactorialFor0_ShouldReturn1()
         {
             // Arange
             const int n = 0;
-            const int expected = 1;
+            BigInteger expected = 1;
             var fc = new FactorialCalc();
 
             // Act
@@ -22,12 +22,12 @@ namespace FactorialCalculatorTests
             Assert.AreEqual(expected, result);
         }
 
-        [TestMethod]
+        [Test]
         public void FactorialFor1_ShouldReturn1()
         {
             // Arange
             const int n = 1;
-            const int expected = 1;
+            BigInteger expected = 1;
             var fc = new FactorialCalc();
 
             // Act
@@ -37,12 +37,12 @@ namespace FactorialCalculatorTests
             Assert.AreEqual(expected, result);
         }
 
-        [TestMethod]
+        [Test]
         public void FactorialFor6_ShouldReturn720()
         {
             // Arrange
             const int n = 6;
-            const int expected = 720;
+            BigInteger expected = 720;
             var fc = new FactorialCalc();
 
             // Act
@@ -52,7 +52,7 @@ namespace FactorialCalculatorTests
             Assert.AreEqual(expected, result);
         }
 
-        [TestMethod]
+        [Test]
         public void FactorialFor5000_ShouldReturnLargeNumber()
         {
             // Arrange
@@ -67,12 +67,12 @@ namespace FactorialCalculatorTests
             Assert.AreEqual(expected, result);
         }
 
-        [TestMethod]
+        [Test]
         public void FactorialForMinus10_ShouldReturnError()
         {
             // Arrange
             const int n = -10;
-            const int expected = 0;
+            BigInteger expected = 0;
             var fc = new FactorialCalc();
 
             // Act

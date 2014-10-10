@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2010
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactorialCalculator", "FactorialCalculator", "{45C910C7-1A04-4DA6-ACF9-2CDC2E51BB37}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialCalculatorProgram", "FactorialCalculator\FactorialCalculatorProgram\FactorialCalculatorProgram.csproj", "{6B7C06CE-6063-4E95-96BA-1C413A787E96}"
@@ -29,9 +31,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = ProgrammingProblems.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -78,5 +77,8 @@ Global
 		{6F5FB1DA-F588-4F18-AD71-7E449EFFE9BA} = {5ABC4CB6-2482-4F5D-AF44-53F280F89BD1}
 		{47D7B0BD-B943-4E97-BFFC-3C52740CE55D} = {5ABC4CB6-2482-4F5D-AF44-53F280F89BD1}
 		{35872F30-8E1D-4585-8CA1-51D9E8A6957C} = {5ABC4CB6-2482-4F5D-AF44-53F280F89BD1}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ProgrammingProblems.vsmdi
 	EndGlobalSection
 EndGlobal
