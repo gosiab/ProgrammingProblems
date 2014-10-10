@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Linq;
 
-namespace CodilitySource
+namespace CodilitySource._01.TimeComplexity
 {
     public class TapeEquilibrium
     {
-        public int TapeEquilibriumSolution(int[] A)
+        public int TapeEquilibriumSolution(int[] a)
         {
-            int leftsum = 0;
-            int min = int.MaxValue;
+            var leftsum = 0;
+            var min = int.MaxValue;
 
-            int sum = A.Aggregate(0, (current, t) => current + t);
+            var sum = a.Aggregate(0, (current, t) => current + t);
 
-            for (int j = 1; j < A.Length; j++)
+            for (var j = 1; j < a.Length; j++)
             {
-                leftsum = leftsum + A[j - 1];
-                int diff = Math.Abs(sum - 2 * leftsum);
+                leftsum = leftsum + a[j - 1];
+                var diff = Math.Abs(sum - 2 * leftsum);
                 if (diff < min)
                 {
                     min = diff;

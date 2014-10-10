@@ -1,4 +1,4 @@
-﻿using CodilitySource;
+﻿using CodilitySource._01.TimeComplexity;
 using NUnit.Framework;
 
 namespace CodilityTests._01.TimeComplexity
