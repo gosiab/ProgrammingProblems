@@ -1,12 +1,12 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EncodeDecodeRecordSource;
+﻿using EncodeDecodeRecordSource;
+using NUnit.Framework;
 
 namespace EncodeDecodeRecordsTests
 {
-    [TestClass]
+    [TestFixture]
     public class EncodeDecodeRecordSourceTest
     {
-        [TestMethod]
+        [Test]
         public void DecodeSource_ShouldReturnRightString()
         {
             // Arange
@@ -21,7 +21,7 @@ namespace EncodeDecodeRecordsTests
             Assert.AreEqual(expected, result);
         }
 
-        [TestMethod]
+        [Test]
         public void EncodeSource_ShouldReturnRightArray()
         {
             // Arange
@@ -36,7 +36,7 @@ namespace EncodeDecodeRecordsTests
             Assert.AreEqual(result.ToString(), expected.ToString());
         }
 
-        [TestMethod]
+        [Test]
         public void DecodeSource1_ShouldReturnRightString()
         {
             // Arange
@@ -51,7 +51,7 @@ namespace EncodeDecodeRecordsTests
             Assert.AreEqual(expected, result);
         }
 
-        [TestMethod]
+        [Test]
         public void EncodeSource1_ShouldReturnRightArray()
         {
             // Arange
