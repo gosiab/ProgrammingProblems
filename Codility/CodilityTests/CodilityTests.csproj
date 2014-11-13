@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -43,14 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01.TimeComplexity\ForgJumpTests.cs" />
     <Compile Include="01.TimeComplexity\FrogJumpTests.cs" />
     <Compile Include="01.TimeComplexity\TapeEquilibriumTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodilitySource\CodilitySource.csproj">
-      <Project>{6f5fb1da-f588-4f18-ad71-7e449effe9ba}</Project>
+      <Project>{6F5FB1DA-F588-4F18-AD71-7E449EFFE9BA}</Project>
       <Name>CodilitySource</Name>
     </ProjectReference>
   </ItemGroup>
